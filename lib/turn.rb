@@ -4,6 +4,7 @@ def turn(board)
   index = input_to_index(input)
   if valid_move?(board, index)
 end
+end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
